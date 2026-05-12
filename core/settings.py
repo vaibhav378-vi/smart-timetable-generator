@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-#k6l^03wo%i!a0nnj71_6*!1krp0)i@^!+z)2pqwa#ru@^49bg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['smart-timetable-generator-8.onrender.com', '127.0.0.1', 'localhost']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
