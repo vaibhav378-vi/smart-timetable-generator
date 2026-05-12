@@ -49,7 +49,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'timetable_generator.urls''
+ROOT_URLCONF = 'core.urls''
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'timetable_generator.wsgi.application'
+WSGI_APPLICATION = 'core.wsgi.application'
 
 
 # Database
